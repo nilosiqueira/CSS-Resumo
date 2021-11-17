@@ -1,5 +1,25 @@
 # CSS-Resumo
 Resumo de CSS Cascading Style Sheets
+
+# Introdução
+## O que significar CSS ?
+
+* Cascading Style Sheet
+* Código para criar estilos no HTML
+* HTML é a estrutura, e o CSS é a beleza
+* Não é uma linguagem de programação;
+* É uma linguagem style sheet
+
+
+# Comentários 
+ 
+ * Não irá afetar o seu código
+ * Ajuda a lembrar blocos de códigos
+ * Deix dicas para leitura
+ * Ajuda outros a entenderem
+ * Nunca esqueça de fechar um comentário aberto 
+ * Você poderá usar para desabilitar partes do seu código
+
 # Anatomia
 
 ```css
@@ -9,6 +29,7 @@ h1 {
     background: gray;
 }
 ```
+
 * Selector
 * Declaration
 * Properties
