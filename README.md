@@ -53,3 +53,14 @@ Conecta um elemento HTML com  o CSS
 * Posicionamentos, tamanhos, espaçamentos, bordas, cores
 * Caixa pode ficar ao lado uma da outra, ou acima
 * Elementos HTML são caixas
+
+# Valores e unidade de medida
+
+* cada propriedade possui valores `property: valeu`
+* estudo constante a fim de entender as propriedades e seus valores
+
+## Prática
+
+* como conhecer e estudadar os valores na documentação
+        * <color> <length>
+* os termos poder variar. `values` ou `data types`
