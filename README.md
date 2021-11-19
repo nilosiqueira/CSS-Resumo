@@ -62,5 +62,5 @@ Conecta um elemento HTML com  o CSS
 ## Prática
 
 * como conhecer e estudadar os valores na documentação
-        * <color> <length>
+       `  * <color> <length>`
 * os termos poder variar. `values` ou `data types`
