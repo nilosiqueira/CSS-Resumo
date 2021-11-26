@@ -1,0 +1,13 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+div{
+  border: 1px solid black;
+  height: 150px;
+  width: 150px;
+box-shadow: 130px 130px 1px 1px red;
+border-radius: 1px;
+}
