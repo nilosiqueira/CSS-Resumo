@@ -88,3 +88,12 @@ rem                     Tamanho da font do elemento raiz (root/html)
 vw                       1% da viewport width.
 vh                        1% da viewport height.
 ```
+# Porcentagens %
+
+* Em muitos casos é tratado da mesma maneira que as distâncias <lenghet>
+* Sempre será relativo a algum valor
+ 
+ exemplo: 
+ tenho um elemento body e um div e uma lista li dentro deste 
+ elemento todos vão ajustar ao elemento pai 
+
