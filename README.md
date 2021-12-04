@@ -149,3 +149,8 @@ body {
   background-position: bottom right;
 }
 ```
+
+# Strings e identificadores
+
+* Strings: Texto envolto em aspas
+* Identificadores: red, back, gold;
