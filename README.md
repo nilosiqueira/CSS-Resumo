@@ -154,3 +154,29 @@ body {
 
 * Strings: Texto envolto em aspas
 * Identificadores: red, back, gold;
+
+usando um piseudo elemento chamado after
+``` 
+.box::after {
+    content: "Aqui vem alguma mensagem";
+    color: white;
+}
+```
+
+# Box Model
+
+- Fundamental para fazer layouts para a web
+- Maior facilidade para aplicar o CSS
+
+## O que é ?
+
+Uma caixa retangular. 
+Essa Caixa possui propriedades de uma caixa (2D)
+```
+- Tamanho (largura x altura)        width | height
+- Conteúdo                                 content
+- Bordas                                      border
+- Preenchimento interno                padding
+- Espaços fora da caixa                margin
+```
+* Cada elemnto na sua página , será considerado uma caixa. *
