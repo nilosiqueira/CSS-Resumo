@@ -122,3 +122,30 @@ CSS
   background-position: bottom right;
 }
 ``` 
+# Funções 
+
+Em programação, função são reconhecidas por causar um reaproveitamento de código. 
+
+* rgb()
+* hsl()
+* url()
+* calc()
+
+```
+HTML
+<div class="box"></div>
+
+CSS
+body {
+    height: 100vh;
+    margin: 0;
+}
+.box {
+  height: calc(100% - 40px);
+  width: 100px;
+  background-image: 
+  url(http://source.unsplash.com/random);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+```
