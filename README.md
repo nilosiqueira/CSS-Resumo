@@ -105,3 +105,20 @@ Representa um conjunto de coordenadas 2D:
 
 * Usado para alguns tipos de propriedades
 * Não confundir com a propriedade `position`
+
+exemplo: 
+
+```
+HTML
+<div class="box"></div>
+
+CSS
+.box {
+  height: 300px;
+  width: 400px;
+  background-image: 
+  url(http://source.unsplash.com/random);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+``` 
