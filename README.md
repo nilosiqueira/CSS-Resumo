@@ -70,9 +70,9 @@ Conecta um elemento HTML com  o CSS
 São fixas e não alteram seu valor.
 ```
 Unidade         Nome                        Equivalência
-cm                  Centímentros            1cm = 96px/2.54
-in                     Inches (polegadas)   1in = 2.54cm = 96px
-px                    Pixels                       1px = 1/96th of 1in
+cm              Centímentros                1cm = 96px/2.54
+in              Inches (polegadas)          1in = 2.54cm = 96px
+px              Pixels                      1px = 1/96th of 1in
 ```
 
 # Distânciaas realtivas 
@@ -83,10 +83,10 @@ ou o tamanho de tela.
 * Benefício: Maior adaptação aos diferentes tipos de tela
 ```
 Unidade             Realtivo a
-em                      Tamanho da font do pai.
-rem                     Tamanho da font do elemento raiz (root/html)
-vw                       1% da viewport width.
-vh                        1% da viewport height.
+em                  Tamanho da font do pai.
+rem                 Tamanho da font do elemento raiz (root/html)
+vw                  1% da viewport width.
+vh                  1% da viewport height.
 ```
 # Porcentagens %
 
