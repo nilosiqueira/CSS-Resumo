@@ -97,3 +97,11 @@ vh                  1% da viewport height.
  tenho um elemento body e um div e uma lista li dentro deste 
  elemento todos vão ajustar ao elemento pai 
 
+ # Posições 
+ <position>
+
+Representa um conjunto de coordenadas 2D:
+- top, right, bottom, left e center
+
+* Usado para alguns tipos de propriedades
+* Não confundir com a propriedade `position`
