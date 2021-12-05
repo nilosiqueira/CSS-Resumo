@@ -2,13 +2,20 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+/*
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
+*/
 
+.containerprincipal {
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
 .card {
     width: 250px;
     height: 300px;
