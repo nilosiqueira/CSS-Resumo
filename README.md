@@ -198,3 +198,23 @@ div {
     box-sizing: border-box;
 }
 ```
+
+## display: block vs display: inline
+
+- Como as caixas se comportam em relação às outras caixas 
+- Comportamento externo das caixas
+
+|   ** block**                                       | ** inline**                                     |
+|----------------------------------------|------------------------------------|
+| Ocupa toda a linha, colocando o          | Elemento ao lado do outro             |
+| próximo elemento abaixo desse            |                                                      |
+|----------------------------------------|------------------------------------|
+| widthi e height são respeitados             |                                                      |
+|----------------------------------------|------------------------------------|
+| padding, margin, border  irão               |                                                      |
+| funcionar normalmente.                        |                                                      |
+|----------------------------------------|------------------------------------|
+
+exemplos 
+bock: `<p> <div> <section>`, todos os headings ` <h1><h2>`... 
+inline: `<a> <strong> <span> <em>`
