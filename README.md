@@ -204,16 +204,16 @@ div {
 - Como as caixas se comportam em relação às outras caixas 
 - Comportamento externo das caixas
 
-|   ** block**                                       | ** inline**                                     |
+|   ** block**                           | ** inline**                        |
 |----------------------------------------|------------------------------------|
-| Ocupa toda a linha, colocando o          | Elemento ao lado do outro             |
-| próximo elemento abaixo desse            |                                                      |
+| Ocupa toda a linha, colocando o        | Elemento ao lado do outro          |
+| próximo elemento abaixo desse          |                                    |
 |----------------------------------------|------------------------------------|
-| widthi e height são respeitados             |                                                      |
+| widthi e height são respeitados        |                                    |
 |----------------------------------------|------------------------------------|
-| padding, margin, border  irão               |                                                      |
-| funcionar normalmente.                        |                                                      |
-|----------------------------------------|------------------------------------|
+| padding, margin, border  irão          |                                    |
+| funcionar normalmente.                 |                                    |
+|                                        |                                    |
 
 exemplos 
 bock: `<p> <div> <section>`, todos os headings ` <h1><h2>`... 
