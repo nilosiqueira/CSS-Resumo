@@ -255,4 +255,32 @@ div {
 
   * Padding poderá causar diferença na largura de um elemento.
 
+## border (e outline )
 
+As bordas da caixa
+
+- value: `<border-style>` | `<border-width>` | `<border-color>` |
+ - style:    solid | dotted    |   dashed | double  |   groove | ridge     | inset | outset
+ - width: `<length>`
+ - color: `<color>`
+
+ ```CSS
+ div {
+   /*shorthand*/ 
+      border-top: solid 2px; /* top | right  | bottom |  left * /
+
+      /* style */
+      border: solid;
+
+      /* width <lengtt> | style */
+      border: 2px dotted;
+
+      /* style | color */
+      border: outset #f33;
+
+      /* width | style | color */
+      border: medium dashed green;
+ }
+ ```
+
+ [For more information, see the ](#https://developer.mozilla.org/en-US/docs/Web/CSS/border)
