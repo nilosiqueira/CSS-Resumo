@@ -259,10 +259,11 @@ div {
 
 As bordas da caixa
 
-- value: `<border-style>` | `<border-width>` | `<border-color>` |
- - style:    solid | dotted    |   dashed | double  |   groove | ridge     | inset | outset
- - width: `<length>`
- - color: `<color>`
+- value: `<border-style>` | `<border-width>` | `<border-color>` 
+
+      - style:    solid | dotted    |   dashed | double  |   groove | ridge     | inset | outset
+      - width: `<length>`
+      - color: `<color>`
 
  ```CSS
  div {
@@ -283,4 +284,12 @@ As bordas da caixa
  }
  ```
 
- [For more information, see the ](#https://developer.mozilla.org/en-US/docs/Web/CSS/border)
+ ##  E outline?
+
+ - difere em 4 sentidos: 
+        - Não modifica o tamanho da caixa, pois não é parte do box model
+        - Poderá ser difrente de retangular
+        - Não permite ajuste individuais
+        - Mais usado pelo user agent para acessibilidade
+
+ For more information, see the [MDN border](https://developer.mozilla.org/en-US/docs/Web/CSS/border)
