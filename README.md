@@ -209,10 +209,10 @@ div {
 | Ocupa toda a linha, colocando o        | Elemento ao lado do outro          |
 | próximo elemento abaixo desse          |                                    |
 |----------------------------------------|------------------------------------|
-| widthi e height são respeitados        |                                    |
+| width e height são respeitados         | width e height não funcionam       |
 |----------------------------------------|------------------------------------|
-| padding, margin, border  irão          |                                    |
-| funcionar normalmente.                 |                                    |
+| padding, margin, border  irão          | somente valores horizontais de     |
+| funcionar normalmente.                 | margin, padding e border.          |
 |                                        |                                    |
 
 exemplos 
