@@ -283,4 +283,4 @@ As bordas da caixa
  }
  ```
 
- [For more information, see the ](#https://developer.mozilla.org/en-US/docs/Web/CSS/border)
+ For more information, see the [MDN border](https://developer.mozilla.org/en-US/docs/Web/CSS/border)
