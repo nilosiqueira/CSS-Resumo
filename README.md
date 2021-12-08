@@ -284,6 +284,7 @@ As bordas da caixa
  }
  ```
 
+<<<<<<< HEAD
  ##  E outline?
 
  - difere em 4 sentidos: 
@@ -292,4 +293,6 @@ As bordas da caixa
         - Não permite ajuste individuais
         - Mais usado pelo user agent para acessibilidade
 
+=======
+>>>>>>> e5f77c90f6478ca2240905c60e0b38dcb09cfc45
  For more information, see the [MDN border](https://developer.mozilla.org/en-US/docs/Web/CSS/border)
