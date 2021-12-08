@@ -218,3 +218,41 @@ div {
 exemplos 
 bock: `<p> <div> <section>`, todos os headings ` <h1><h2>`... 
 inline: `<a> <strong> <span> <em>`
+
+## margin 
+
+Espaços entre os elementos 
+
+- margin-top | margin-right | margin-bottom | margin-left
+- values: `<length>` | `<percentage>` | auto
+
+```
+div {
+      margin: 12px 16px 10px 4px;
+      margin: 12px 16px 0;
+      margin: 8px 16px;
+      margin: 8px;
+}
+```
+
+  * Cuidado com margin collapsing (top se ajusta ao bottom)
+
+## padding
+
+Espaços entre os elementos 
+
+- padding-top | padding-right | padding-bottom | padding-left
+- values: `<length>` | `<percentage>` | auto
+
+```
+div {
+      padding: 12px 16px 10px 4px;
+      padding: 12px 16px 0;
+      padding: 8px 16px;
+      padding: 8px;
+}
+```
+
+  * Padding poderá causar diferença na largura de um elemento.
+
+
