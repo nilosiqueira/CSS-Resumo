@@ -303,7 +303,7 @@ As bordas da caixa
 3. Seletor de irmão adjacente (+)
 4. Seletor geral de irmãos (~)
 
-## Seletor de descentente
+## Seletor de descendente
 
 O seletor descendente corresponte a todos os elementos descendentes de um elemento especificado.
 
@@ -316,4 +316,15 @@ div p {
 }
 ```
 
+## Seletor filho (>)
+
+O seletor filho seleciona todos os elementos que são filhos de um elemento especificado.
+
+O exemplo a seguir seleciona todos os elementos `<p>` que são filhos de um elemento `<div>`
+
+```
+div > p {
+    background-color: yellow;
+}
+```
 
