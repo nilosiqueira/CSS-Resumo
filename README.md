@@ -328,3 +328,15 @@ div > p {
 }
 ```
 
+## Seletor de irmão adjacente (+)
+
+O seletor irmão adjacente é usado para selecionar um elemento que está diretamente após outro elemento específico.
+
+O exemplo a seguir seleciona o primeiro elemento `<p>` que é colocado imediatamente após 
+os elementos `<div>`
+
+```
+div + p {
+    background-color: yellow;
+}
+```
