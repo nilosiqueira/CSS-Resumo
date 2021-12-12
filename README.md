@@ -294,3 +294,26 @@ As bordas da caixa
 
 
  For more information, see the [MDN border](https://developer.mozilla.org/en-US/docs/Web/CSS/border)
+
+
+# Tipos de combinadores
+
+1. Seletor de descendente
+2. Seletor filho (>)
+3. Seletor de irmão adjacente (+)
+4. Seletor geral de irmãos (~)
+
+## Seletor de descentente
+
+O seletor descendente corresponte a todos os elementos descendentes de um elemento especificado.
+
+Exemplo a seguir seleciona todos os elementos `<p>`
+dentro dos elementos  `<div>`
+
+```
+div p {
+  background-color: yellow;
+}
+```
+
+
