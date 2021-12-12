@@ -362,3 +362,37 @@ PARÁGRAFO 2 NA DIV.
 **PARÁGRAFO 3 .**
 PARÁGRAFO 4.
 ```
+
+O exemplo a seguir seleciona todos os elementos `<p>`
+são irmãos próximos dos elementos `<div>`
+
+```css
+div ~ p {
+    background-color: yellow;
+}
+```
+
+### Exemplo (geral de irmãos ~)
+
+```css
+div ~ p {
+  background-color: yellow;
+}
+```
+```html
+<p>Algum parágrafo qualquer</p>
+<p>Parágrafo 1.</p>
+
+<div>
+    <p>Parágrafo 2 na div.
+</div>
+<p>Parágrafo 3.</p>
+<p>Parágrafo 4.</p>
+```
+```html
+Algum parágrafo qualquer 
+Parágrafo 1.
+Parágrafo 2 na div.
+**Parágrafo 3.**
+**Parágrafo 4.**
+```
