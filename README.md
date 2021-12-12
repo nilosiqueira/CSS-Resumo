@@ -108,11 +108,10 @@ Representa um conjunto de coordenadas 2D:
 
 exemplo: 
 
-```
-HTML
+```HTML
 <div class="box"></div>
-
-CSS
+```
+```CSS
 .box {
   height: 300px;
   width: 400px;
@@ -131,11 +130,10 @@ Em programação, função são reconhecidas por causar um reaproveitamento de c
 * url()
 * calc()
 
-```
-HTML
+```html
 <div class="box"></div>
-
-CSS
+```
+```CSS
 body {
     height: 100vh;
     margin: 0;
@@ -156,7 +154,8 @@ body {
 * Identificadores: red, back, gold;
 
 usando um piseudo elemento chamado after
-``` 
+
+```css
 .box::after {
     content: "Aqui vem alguma mensagem";
     color: white;
@@ -187,8 +186,7 @@ Como será calculado o tamanho total da caixa?
 
 - content-box | border-box
 
-```
-css
+```css
 div {
     width: 100px;
     height: 100px;
@@ -226,7 +224,7 @@ Espaços entre os elementos
 - margin-top | margin-right | margin-bottom | margin-left
 - values: `<length>` | `<percentage>` | auto
 
-```
+```css
 div {
       margin: 12px 16px 10px 4px;
       margin: 12px 16px 0;
@@ -244,7 +242,7 @@ Espaços entre os elementos
 - padding-top | padding-right | padding-bottom | padding-left
 - values: `<length>` | `<percentage>` | auto
 
-```
+```css
 div {
       padding: 12px 16px 10px 4px;
       padding: 12px 16px 0;
@@ -310,7 +308,7 @@ O seletor descendente corresponte a todos os elementos descendentes de um elemen
 Exemplo a seguir seleciona todos os elementos `<p>`
 dentro dos elementos  `<div>`
 
-```
+```css
 div p {
   background-color: yellow;
 }
@@ -322,7 +320,7 @@ O seletor filho seleciona todos os elementos que são filhos de um elemento espe
 
 O exemplo a seguir seleciona todos os elementos `<p>` que são filhos de um elemento `<div>`
 
-```
+```css
 div > p {
     background-color: yellow;
 }
@@ -335,8 +333,32 @@ O seletor irmão adjacente é usado para selecionar um elemento que está direta
 O exemplo a seguir seleciona o primeiro elemento `<p>` que é colocado imediatamente após 
 os elementos `<div>`
 
-```
+```css
 div + p {
     background-color: yellow;
 }
+```
+### Exemplo (irmão djacente +)
+
+```css
+div + p {
+  background-color: yellow;
+}
+```
+```html
+<div>
+    <p>PARÁRGRAFO 1 NA DIV.</p>
+    <p>PARÁRGRAFO 2 NA DIV.</p>
+</div>
+      <p>PARÁRGRAFO 3.</p>
+      <p>PARÁRGRAFO 4.</p>
+```
+
+```html
+RESULTADO
+
+PARÁGRAFO 1 NA DIV.
+PARÁGRAFO 2 NA DIV.
+**PARÁGRAFO 3 .**
+PARÁGRAFO 4.
 ```
