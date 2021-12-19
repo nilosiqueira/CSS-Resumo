@@ -1,5 +1,5 @@
 div{
-    background-color: #334d4d;
+    background-color: #13293D;
     margin: 50px;
     width: 350px;
     height: 550px;
@@ -9,18 +9,21 @@ div{
 }
 
 header{
-    background-color: #d1e0e0;
+    background-color: #E8F1F2;
     width: 330px;
     height: 100px;
     border-radius: 20px;
     margin: 0 auto;
     font-size: xx-large;
     color: #000000;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
     text-align: center;
 }
 
 table{
-    background-color: #FFFFFF;
+    background-color: #1B98E0;
     margin: 0 auto;
     margin-top: 20px;
     margin-right: 10px;
@@ -36,10 +39,11 @@ td{
 }
 
 .orange{
-    color: #ff3300;
+    color: #E8F1F2;
+    font-size: xx-large;
 }
 
 td:active{
-    background-color: #e0e0d1;
+    background-color: #13293D;
     border-radius: 20px;
 }
