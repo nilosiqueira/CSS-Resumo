@@ -456,3 +456,20 @@ element {
 ## Referência
 
 Veja mais informações [MDN](https://developer.mozilla.org/pt-BR/docs/Web/CSS/color_value)
+
+## Background
+
+- Define um fundo para o nosso elemento
+- Sua área de atuação é a caixa toda
+- por padrão, é transparente
+
+### Exemplos 
+
+- Usar cores sólidas
+- Usar Imagens
+- Controlar 
+      - a posição das imagens.
+      - se elas se repetem ou não
+      - o tamanho dela na caixa
+- Usar cor e imagem juntas
+- Usar cor gradiente
